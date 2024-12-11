@@ -47,6 +47,6 @@ The final for loop is responsible for the sum of all the values on the faces dis
 The program terminates when the total for all the outcomes is displayed to the user as output.
 
 # AUTHOR INFO
-Name     : Ripan Das
-GitHub   : RipD-006 [Url :
-LinkedIn : 
+    Name     : Ripan Das
+    GitHub   : RipD-006 [Url : https://github.com/RipD-006]
+    LinkedIn : https://www.linkedin.com/in/ripan-das-375b33286
