@@ -40,6 +40,6 @@ The significance of the second for loop is all about displaying the faces of eac
 
 The final for loop is responsible for the sum of all the values on the faces displayed when the dices were rolled. This iteration will run according to the value of the number of dices to be rolled which was previously specified by the user and the faces of each dice is added to the total variable replacing the previous value with the sum of all the outcomes.
 
-for die in dice:
-    total += die
-print(f"Total : {total}")
+    for die in dice:
+        total += die
+    print(f"Total : {total}")
