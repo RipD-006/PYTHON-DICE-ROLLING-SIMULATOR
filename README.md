@@ -25,16 +25,21 @@ number_of_dices = int(input("Enter the number of Dice: "))
 
 # CREATING FOR LOOP
 Here, the User entered value for the number of dices to be rolled is appended to the Empty List (i.e. dice=[]) such that the Random Module displays a number ranging from 1 to 6 on each dice that has been rolled.
+    
     for die in range(number_of_dices):
         dice.append(random.randint(1, 6))
 
+
 The significance of the second for loop is all about displaying the faces of each dice in an ordered way next to one another whenever the output is displayed
+    
     for item in range(5):
         for die in dice:
             print(dice_art.get(die)[item], end="")
         print()
 
+
 The final for loop is responsible for the sum of all the values on the faces displayed when the dices were rolled. This iteration will run according to the value of the number of dices to be rolled which was previously specified by the user and the faces of each dice is added to the total variable replacing the previous value with the sum of all the outcomes.
+
 for die in dice:
     total += die
 
