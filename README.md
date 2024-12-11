@@ -43,3 +43,10 @@ The final for loop is responsible for the sum of all the values on the faces dis
     for die in dice:
         total += die
     print(f"Total : {total}")
+
+The program terminates when the total for all the outcomes is displayed to the user as output.
+
+# AUTHOR INFO
+Name     : Ripan Das
+GitHub   : RipD-006 [Url :
+LinkedIn : 
