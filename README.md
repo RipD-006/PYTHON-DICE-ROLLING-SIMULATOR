@@ -30,7 +30,7 @@ Here, the User entered value for the number of dices to be rolled is appended to
         dice.append(random.randint(1, 6))
 
 
-The significance of the second for loop is all about displaying the faces of each dice in an ordered way next to one another whenever the output is displayed
+The significance of the second for loop is all about displaying the faces of each dice in an ordered way next to one another whenever the output is displayed.
     
     for item in range(5):
         for die in dice:
@@ -42,5 +42,4 @@ The final for loop is responsible for the sum of all the values on the faces dis
 
 for die in dice:
     total += die
-
 print(f"Total : {total}")
